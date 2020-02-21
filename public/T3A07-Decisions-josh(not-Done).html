@@ -1,0 +1,23 @@
+<h1 align=center>T3A07 Decisions by Josh</h1>
+
+<input id="myText01" type=text value="5"
+
+<input type="button" value="Decision" onclick="{
+  // you write the decision
+  
+  id (document.getElementById('myText').value == 5){
+    document.getElementById('myDiv01').innerHTML += '<br>It is a Five, input was: '+document.getElementById('myText01').value
+  }
+ 
+  else if (document.getElementById('myText').value == 3){
+    document.getElementById('myDiv01').innerHTML += '<br>It is a Three, input was: '+document.getElementById('myText01').value
+  }
+
+  else {
+    document.getElementById('myDiv01').innerHTML = ''
+  }
+
+
+}">
+
+<div id="myDiv01">...</div>
